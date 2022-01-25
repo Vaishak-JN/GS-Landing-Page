@@ -1,0 +1,189 @@
+:root {
+  --h1: 64px;
+  --h3: 24px;
+  --default-size: 16px;
+  --btn-color-pink: #ff3d6b;
+  --btn-color-blue: #5f6fbf;
+  --line-height: 24px;
+  --border-radius: 5px;
+  --blue-color: #231741;
+  --light-blue-color: #e8f4ff;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+#intro-section {
+  background-color: #231741;
+}
+p {
+  line-height: var(--line-height);
+  font-size: var(--default-size);
+}
+#intro-p {
+  color: #e6dcff;
+}
+nav > ul > li {
+  color: #ffffff;
+  list-style-type: none;
+  cursor: pointer;
+}
+
+#logo {
+  width: 140px;
+}
+
+.sub-menu {
+  position: relative;
+}
+
+ul.show-list {
+  height: max-content;
+  visibility: visible;
+}
+
+h1 {
+  font-size: var(--h1);
+}
+.h3 {
+  font-size: var(--h3);
+}
+
+#demo {
+  background-color: var(--btn-color-pink);
+  border-radius: var(--border-radius);
+  line-height: var(--line-height);
+  font-size: var(--default-size);
+}
+#demo:hover {
+  background-color: #f30039;
+}
+.blue {
+  color: var(--blue-color);
+}
+
+#contact,
+#contact-2 {
+  background-color: var(--btn-color-blue);
+  border-radius: var(--border-radius);
+  line-height: var(--line-height);
+  font-size: var(--default-size);
+}
+#started,
+#started-2 {
+  background-color: var(--btn-color-blue);
+  border-radius: var(--border-radius);
+  line-height: var(--line-height);
+  font-size: var(--default-size);
+}
+#get-started {
+  background-color: var(--btn-color-blue);
+  border-radius: var(--border-radius);
+  line-height: var(--line-height);
+  font-size: var(--default-size);
+}
+
+#contact:hover,
+#contact-1:hover,
+#started:hover,
+#started-2:hover,
+#get-started:hover,
+#contact-developer:hover {
+  background-color: var(--blue-color);
+}
+
+#calender {
+  background-color: #fff4e7;
+  border-radius: calc(var(--border-radius) * 3);
+  height: 300px;
+}
+
+.day {
+  background-color: #ffffff;
+  border-radius: var(--border-radius);
+  border: 1px solid var(--blue-color);
+}
+#calender-account {
+  background-color: var(--light-blue-color);
+  border-radius: calc(var(--border-radius) * 3);
+  height: 300px;
+  color: #2d356b;
+  border-color: #2d356b;
+}
+
+#add-btn {
+  background-color: var(--blue-color);
+  color: #ffffff;
+  outline: none !important;
+}
+
+#add-btn:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+#toggle-btn {
+  color: #ffffff;
+  outline: none !important;
+  border: 0 !important;
+}
+#toggle-btn:focus {
+  outline: none !important;
+  box-shadow: none !important;
+  border: 0 !important;
+}
+
+.btn:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+.integration {
+  background: linear-gradient(0deg, #fff9fa, #fff9fa), #0d012c;
+}
+#reviews {
+  background: linear-gradient(0deg, #fff9fa, #fff9fa), #0d012c;
+}
+
+#contact-developer {
+  background-color: var(--btn-color-blue);
+  border-radius: var(--border-radius);
+  line-height: var(--line-height);
+  font-size: var(--default-size);
+}
+
+#grid > div > div > img {
+  width: 48px;
+}
+
+#star-rating {
+  width: 120px;
+}
+#review-comment {
+  line-height: 40px;
+}
+
+#trial-1 {
+  background-image: url(./images/call-exp.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100vw;
+}
+
+#free-trial-btn {
+  background-color: var(--btn-color-pink);
+}
+
+#trial-2 {
+  background-image: url(./images/call-exp-2.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* transform: scaleX(-1); */
+}
+section {
+  width: 100vw;
+  height: max-content;
+}
